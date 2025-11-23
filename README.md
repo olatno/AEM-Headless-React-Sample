@@ -50,3 +50,15 @@ In the all-in-one package ([`all`](./all/) directory), there are additional prof
 ## Documentation
 
 - [Framework setup](./react-app/README.md)
+
+This repository is populated with the full React + AEM Headless starter code.
+
+How to use:
+1. cd react-app
+2. npm install
+3. npm run dev   # for local dev with MSW mocking
+4. npm run build # build production assets
+5. npm run copy:aem # copy built assets into ui.apps clientlib (adjust paths as needed)
+
+Then package ui.apps into your AEM package and deploy.
+

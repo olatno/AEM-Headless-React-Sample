@@ -12,6 +12,6 @@ export async function fetchAemModel(path) {
 }
 
 export async function fetchGraphQL(path, variation) {
-  const res = await axios.get('/content/cq:graphql/standard/execute.json/GetText;'+path+';'+variation);
+  const res = await axios.get('/graphql/execute.json/standard/GetText;'+path+';'+variation);
   return res.data;
 }
