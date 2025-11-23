@@ -12,7 +12,7 @@ export default function AemPage() {
       setLoading(true)
       const path = window.__AEM?.resourcePath || window.location.pathname
       const modelPath = path.startsWith('/content') ? path : `/content${path}`
-      const  cfPath = 'path=/content/dam/reusable-content/text'
+      const  cfPath = 'path=/content/dam/reusable-content/text/simple-text'
       const  variation = 'variation=master'
 
       try {
