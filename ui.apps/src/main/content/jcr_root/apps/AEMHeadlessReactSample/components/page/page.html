@@ -1,0 +1,12 @@
+<!-- Include clientlib -->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='myproject.react'}" />
+
+<div id="react-root" data-react-checksum="" data-aem-path="${currentPage.path @ context='text'}"></div>
+
+<script>
+  (function(){
+    window.__AEM = window.__AEM || {};
+    window.__AEM.resourcePath = '${currentPage.path @ context="text"}';
+  })();
+</script>

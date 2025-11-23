@@ -1,0 +1,24 @@
+{
+  "name": "react-aem-spa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite",
+    "copy:aem": "node scripts/copy-to-aem.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "@apollo/client": "^3.8.0",
+    "graphql": "^16.6.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "msw": "^1.2.1"
+  }
+}

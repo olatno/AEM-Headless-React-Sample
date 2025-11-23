@@ -1,0 +1,6 @@
+{
+  "jcr:primaryType": "cq:ClientLibraryFolder",
+  "categories": ["AEMHeadlessReactSample.react"],
+  "jsProcessor": ["min:gcc"],
+  "cssProcessor": ["default:none"]
+}
